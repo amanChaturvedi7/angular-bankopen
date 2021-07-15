@@ -1,0 +1,99 @@
+.card {
+    width: 391px;
+    height: 253px;
+    background: #fcfcff 0% 0% no-repeat padding-box;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    background: rgb(161, 100, 223) 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+
+.card:hover .card-desc {
+    background: rgb(161, 100, 223) 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+
+.img {
+    margin-top: 33.72px;
+    margin-left: 34.02px;
+    width: 90px;
+    height: 90px;
+}
+
+.card-title {
+    margin-left: 34px;
+    margin-top: 19px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-desc {
+    margin-left: 34px;
+    margin-top: 11px;
+    font-size: 15px;
+    margin-right: 34px;
+    color: #999999;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1900px) {
+    .card {
+        width: calc(391px / 1.5);
+        height: calc(253px / 1.5);
+        box-shadow: 0 0 calc(10px / 1.5) 0 rgb(0 0 0 / 10%);
+        border-radius: calc(20px / 1.5);
+    }
+
+    .img {
+        margin-top: calc(33.72px / 1.5);
+        margin-left: calc(34.02px / 1.5);
+        width: calc(90px / 1.5);
+        height: calc(90px / 1.5);
+    }
+
+    .card-title {
+        margin-left: calc(34px / 1.5);
+        margin-top: calc(19px / 1.5);
+        font-size: calc(15px / 1.5);
+    }
+
+    .card-desc {
+        margin-left: calc(34px / 1.5);
+        margin-top: calc(11px / 1.5);
+        font-size: calc(15px / 1.5);
+        margin-right: calc(34px / 1.5);
+    }
+}
+
+@media screen and (min-width: 2530px) {
+    .card {
+        width: calc(391px * 1.5);
+        height: calc(253px * 1.5);
+        box-shadow: 0 0 calc(10px * 1.5) 0 rgb(0 0 0 / 10%);
+        border-radius: calc(20px * 1.5);
+    }
+
+    .img {
+        margin-top: calc(33.72px * 1.5);
+        margin-left: calc(34.02px * 1.5);
+        width: calc(90px * 1.5);
+        height: calc(90px * 1.5);
+    }
+
+    .card-title {
+        margin-left: calc(34px * 1.5);
+        margin-top: calc(19px * 1.5);
+        font-size: calc(15px * 1.5);
+    }
+
+    .card-desc {
+        margin-left: calc(34px * 1.5);
+        margin-top: calc(11px * 1.5);
+        font-size: calc(15px * 1.5);
+        margin-right: calc(34px * 1.5);
+    }
+}

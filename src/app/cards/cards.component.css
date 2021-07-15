@@ -1,0 +1,83 @@
+.card1 {
+    top: 1137px;
+    left: 191px;
+    position: absolute;
+}
+
+.card2 {
+    top: 1261px;
+    left: 630px;
+    position: absolute;
+}
+
+.card3 {
+    top: 1450px;
+    left: 191px;
+    position: absolute;
+}
+
+.card4 {
+    top: 1593px;
+    left: 630px;
+    position: absolute;
+}
+
+.card5 {
+    top: 1786px;
+    left: 191px;
+    position: absolute;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1900px) {
+    .card1 {
+        top: calc(1137px / 1.5);
+        left: calc(191px / 1.5);
+    }
+
+    .card2 {
+        top: calc(1261px / 1.5);
+        left: calc(630px / 1.5);
+    }
+
+    .card3 {
+        top: calc(1450px / 1.5);
+        left: calc(191px / 1.5);
+    }
+
+    .card4 {
+        top: calc(1593px / 1.5);
+        left: calc(630px / 1.5);
+    }
+
+    .card5 {
+        top: calc(1786px / 1.5);
+        left: calc(191px / 1.5);
+    }
+}
+
+@media screen and (min-width: 2530px) {
+    .card1 {
+        top: calc(1137px * 1.5);
+        left: calc(191px * 1.5);
+    }
+
+    .card2 {
+        top: calc(1261px * 1.5);
+        left: calc(630px * 1.5);
+    }
+
+    .card3 {
+        top: calc(1450px * 1.5);
+        left: calc(191px * 1.5);
+    }
+
+    .card4 {
+        top: calc(1593px * 1.5);
+        left: calc(630px * 1.5);
+    }
+
+    .card5 {
+        top: calc(1786px * 1.5);
+        left: calc(191px * 1.5);
+    }
+}

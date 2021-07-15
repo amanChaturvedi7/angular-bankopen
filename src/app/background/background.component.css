@@ -1,0 +1,317 @@
+.container {
+    height: 2145px;
+    background: #fcfcff 0% 0% no-repeat padding-box;
+    z-index: 0;
+}
+
+.boost-title {
+    top: 1377px;
+    left: 1158px;
+    width: 490px;
+    height: 98px;
+    position: absolute;
+    font-size: 40px;
+}
+
+.simple-title {
+    top: 270px;
+    left: 189px;
+    width: 407px;
+    height: 98px;
+    position: absolute;
+    font-size: 40px;
+}
+
+.blob-small {
+    top: 213px;
+    left: -179px;
+    width: 571px;
+    height: 572px;
+    position: absolute;
+}
+
+.underline-simple-title {
+    top: 376px;
+    left: 192px;
+    width: 236px;
+    height: 8px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.underline-boost-title {
+    top: 1528px;
+    left: 1158px;
+    width: 120px;
+    height: 8px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.collect-img {
+    top: 466px;
+    left: 136px;
+    width: 652px;
+    height: 365px;
+    position: absolute;
+}
+
+.accounting-dots {
+    top: 796px;
+    left: 462px;
+    width: 430px;
+    height: 70px;
+    position: absolute;
+}
+
+.accounting-dots2 {
+    top: 936px;
+    left: 1458px;
+    width: 430px;
+    height: 70px;
+    position: absolute;
+}
+
+.big-circle-right {
+    top: -227.9068603515625px;
+    left: 852px;
+    width: 1183px;
+    height: 1192px;
+    position: absolute;
+}
+
+.wave-bg {
+    top: 1209px;
+    left: 0.0001220703125px;
+    width: 1920px;
+    height: 936px;
+    position: absolute;
+}
+
+.acct-btn {
+    top: 1686px;
+    left: 1158px;
+    width: 279px;
+    height: 58px;
+    font-size: 14px;
+    padding: 0 35px;
+    cursor: pointer;
+    border-radius: 24px;
+    color: #639;
+    border: 2px solid #639;
+    position: absolute;
+    background: none;
+}
+
+.acct-btn:hover {
+    color: #fff;
+    background: #639;
+}
+
+.loan-desc-txt {
+    top: 1561px;
+    left: 1158px;
+    width: 400px;
+    height: 44px;
+    position: absolute;
+    color: #777777;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1900px) {
+    .container {
+        height: calc(2145px / 1.5);
+    }
+
+    .simple-title {
+        top: calc(270px / 1.5);
+        left: calc(189px / 1.5);
+        width: calc(407px / 1.5);
+        height: calc(98px / 1.5);
+        font-size: calc(40px / 1.5);
+    }
+
+    .blob-small {
+        top: calc(213px / 1.5);
+        left: calc(-179px / 1.5);
+        width: calc(571px / 1.5);
+        height: calc(572px / 1.5);
+    }
+
+    .underline-simple-title {
+        top: calc(376px / 1.5);
+        left: calc(192px / 1.5);
+        width: calc(236px / 1.5);
+        height: calc(8px / 1.5);
+        border-radius: calc(13px / 1.5);
+    }
+
+    .collect-img {
+        top: calc(466px / 1.5);
+        left: calc(136px / 1.5);
+        width: calc(652px / 1.5);
+        height: calc(365px / 1.5);
+    }
+
+    .accounting-dots {
+        top: calc(796px / 1.5);
+        left: calc(462px / 1.5);
+        width: calc(430px / 1.5);
+        height: calc(70px / 1.5);
+    }
+
+    .accounting-dots2 {
+        top: calc(936px / 1.5);
+        left: calc(1458px / 1.5);
+        width: calc(430px / 1.5);
+        height: calc(70px / 1.5);
+    }
+
+    .big-circle-right {
+        top: calc(-227.91px / 1.5);
+        left: calc(852px / 1.5);
+        width: calc(1183px / 1.5);
+        height: calc(1192px / 1.5);
+    }
+
+    .wave-bg {
+        top: calc(1209px / 1.5);
+        left: 0.0001220703125px;
+        width: calc(1920px / 1.5);
+        height: calc(936px / 1.5);
+    }
+
+    .acct-btn {
+        top: calc(1686px / 1.5);
+        left: calc(1158px / 1.5);
+        width: calc(279px / 1.5);
+        height: calc(58px / 1.5);
+        font-size: calc(14px / 1.5);
+        padding: 0 calc(35px / 1.5);
+        border-radius: calc(24px / 1.5);
+    }
+
+    .loan-desc-txt {
+        top: calc(1561px / 1.5);
+        left: calc(1158px / 1.5);
+        width: calc(400px / 1.5);
+        height: calc(44px / 1.5);
+        font-size: calc(18px / 1.5);
+    }
+
+    .boost-title {
+        top: calc(1377px / 1.5);
+        left: calc(1158px / 1.5);
+        width: calc(490px / 1.5);
+        height: calc(98px / 1.5);
+        font-size: calc(40px / 1.5);
+    }
+    .underline-boost-title {
+        top: calc(1528px / 1.5);
+        left: calc(1158px / 1.5);
+        width: calc(120px / 1.5);
+        height: calc(8px / 1.5);
+        border-radius: calc(13px / 1.5);
+    }
+}
+
+@media screen and (min-width: 2530px) {
+    .container {
+        height: calc(2145px * 1.5);
+    }
+
+    .simple-title {
+        top: calc(270px * 1.5);
+        left: calc(189px * 1.5);
+        width: calc(407px * 1.5);
+        height: calc(98px * 1.5);
+        font-size: calc(40px * 1.5);
+    }
+
+    .blob-small {
+        top: calc(213px * 1.5);
+        left: calc(-179px * 1.5);
+        width: calc(571px * 1.5);
+        height: calc(572px * 1.5);
+    }
+
+    .underline-simple-title {
+        top: calc(376px * 1.5);
+        left: calc(192px * 1.5);
+        width: calc(236px * 1.5);
+        height: calc(8px * 1.5);
+        border-radius: calc(13px * 1.5);
+    }
+
+    .collect-img {
+        top: calc(466px * 1.5);
+        left: calc(136px * 1.5);
+        width: calc(652px * 1.5);
+        height: calc(365px * 1.5);
+    }
+
+    .accounting-dots {
+        top: calc(796px * 1.5);
+        left: calc(462px * 1.5);
+        width: calc(430px * 1.5);
+        height: calc(70px * 1.5);
+    }
+
+    .accounting-dots2 {
+        top: calc(936px * 1.5);
+        left: calc(1458px * 1.5);
+        width: calc(430px * 1.5);
+        height: calc(70px * 1.5);
+    }
+
+    .big-circle-right {
+        top: calc(-227.91px * 1.5);
+        left: calc(852px * 1.5);
+        width: calc(1183px * 1.5);
+        height: calc(1192px * 1.5);
+    }
+
+    .wave-bg {
+        top: calc(1209px * 1.5);
+        left: 0.0001220703125px;
+        width: calc(1920px * 1.5);
+        height: calc(936px * 1.5);
+    }
+
+    .acct-btn {
+        top: calc(1686px * 1.5);
+        left: calc(1158px * 1.5);
+        width: calc(279px * 1.5);
+        height: calc(58px * 1.5);
+        font-size: calc(14px * 1.5);
+        padding: 0 calc(35px * 1.5);
+        border-radius: calc(24px * 1.5);
+    }
+
+    .loan-desc-txt {
+        top: calc(1561px * 1.5);
+        left: calc(1158px * 1.5);
+        width: calc(400px * 1.5);
+        height: calc(44px * 1.5);
+        font-size: calc(18px * 1.5);
+    }
+
+    .boost-title {
+        top: calc(1377px * 1.5);
+        left: calc(1158px * 1.5);
+        width: calc(490px * 1.5);
+        height: calc(98px * 1.5);
+        font-size: calc(40px * 1.5);
+    }
+    .underline-boost-title {
+        top: calc(1528px * 1.5);
+        left: calc(1158px * 1.5);
+        width: calc(120px * 1.5);
+        height: calc(8px * 1.5);
+        border-radius: calc(13px * 1.5);
+    }
+}

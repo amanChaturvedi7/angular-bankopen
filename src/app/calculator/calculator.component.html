@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="calculator">
+        <div class="calc-header">
+            <span class="standard-text">Eligibility Calculator</span>
+        </div>
+        <div class="calc-form">
+            <div class="calc-form-field">
+                <span class="mar-bottom standard-text">Monthly Income</span>
+                <span class="large-text">₹{{monthlyIncome | number}}</span>
+                <mat-slider [(ngModel)]="monthlyIncome" tickInterval="1000" step="1000" [min]="minIncome"
+                    [max]="maxIncome" aria-label="units">
+                </mat-slider>
+                <div class="income-range">
+                    <span class="small-text">₹{{minIncome | number}}</span>
+                    <span class="small-text">₹{{maxIncome |number}}</span>
+                </div>
+            </div>
+            <div class="calc-form-field">
+                <span class="mar-bottom standard-text">Monthly Expense</span>
+                <span class="large-text">₹{{monthlyExpense | number}}</span>
+                <mat-slider [(ngModel)]="monthlyExpense" tickInterval="1000" step="1000" [min]="minExpense"
+                    [max]="maxExpense" aria-label="units">
+                </mat-slider>
+            </div>
+            <div class="calc-form-field">
+                <span class="standard-text">Repayment Tenure</span>
+                <mat-form-field>
+                    <mat-select [(ngModel)]="tenurePeriod" class="large-text">
+                        <mat-option *ngFor="let item of tenurePeriods" [value]="item">
+                            <span>{{item}}</span>
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="calc-form-field">
+                <div class="income-range">
+                    <span class="mar-bottom standard-text">Do you have any existing loans</span>
+                    <mat-slide-toggle></mat-slide-toggle>
+                </div>
+            </div>
+            <div class="calc-form-field">
+                <span class="mar-bottom standard-text">EMI of existing load (optional)</span>
+                <mat-form-field>
+                    <input matInput type="number" class="font-20" [(ngModel)]="emi">
+                </mat-form-field>
+            </div>
+        </div>
+    </div>
+    <div class="calc-result">
+        <div class="calc-result-form">
+            <span class="font-20 mar-bottom">Loan Amount</span>
+            <span class="font-20 mar-bottom-40">₹{{100000 | number}}</span>
+            <span class="font-20 mar-bottom">Your EMI will be</span>
+            <span class="font-20 mar-bottom-40">₹{{emi | number}}</span>
+            <button class="login-btn">GET MONEY</button>
+        </div>
+    </div>
+</div>
