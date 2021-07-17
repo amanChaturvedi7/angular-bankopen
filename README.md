@@ -1,6 +1,6 @@
 # Demo
 
-![CPT2107171330-1000x497](https://user-images.githubusercontent.com/28622828/126030421-f72b5e58-b5fd-45e4-bace-5bc649ff9220.gif)
+![screen-capture](https://user-images.githubusercontent.com/28622828/126031111-bb2eba7f-fe72-4351-9c7d-7a5ffe84521d.gif)
 
 # Bankopen
 
